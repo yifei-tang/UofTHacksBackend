@@ -1,1 +1,1 @@
-# UofTHacksBackend
+# UofTHacks2020
