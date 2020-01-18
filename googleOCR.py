@@ -1,7 +1,6 @@
 import os, io
 from google.cloud import vision
 from google.cloud.vision import types
-import cv2
 
 def find_brand_from_image():
     FILE_NAME="new_image.jpg"
