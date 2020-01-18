@@ -31,7 +31,6 @@ from flask import Flask,request, url_for, jsonify
 from googleOCR import find_brand_from_image 
 from setUpDB import my_database
 from flask_restful import Resource, Api #resource allows code to be much more segregated 
-import time
 
 my_DB=my_database()
 
@@ -66,6 +65,6 @@ def index():
         # return {'produce': request.get_json()[], 'numBugs': 3,'result_image_location': url_for('static', filename=fname_after_processing)}, 201 #change the default code
 
 
-port = int(os.environ.get("PORT", 5000))
+#port = int(os.environ.get("PORT", 5000))
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=port)
+    app.run()
