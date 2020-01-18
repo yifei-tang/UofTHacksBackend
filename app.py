@@ -47,6 +47,8 @@ def index():
 
     elif(request.method=='POST'):
         print('POST')
+    else:
+        return jsonify({'hello':'world'})
         # my_data=request.get_data()
         
         # newFile = open("new_image.jpg", "wb") #open data as binary
