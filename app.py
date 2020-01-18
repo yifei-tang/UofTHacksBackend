@@ -64,6 +64,6 @@ def index():
         # return {'produce': request.get_json()[], 'numBugs': 3,'result_image_location': url_for('static', filename=fname_after_processing)}, 201 #change the default code
 
 
-
+port = int(os.environ.get("PORT", 5000))
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, host='0.0.0.0', port=port)
