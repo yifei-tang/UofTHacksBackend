@@ -5,8 +5,6 @@ Automat==0.6.0
 backports.functools-lru-cache==1.5
 beautifulsoup4==4.6.0
 cachetools==3.1.1
-catkin-pkg==0.4.13
-catkin-pkg-modules==0.4.13
 cbor==1.0.0
 certifi==2019.11.28
 chardet==3.0.4
@@ -92,13 +90,6 @@ PyYAML==3.12
 qrcode==5.3
 requests==2.22.0
 roman==2.0.0
-rosdep==0.16.1
-rosdistro==0.7.5
-rosdistro-modules==0.7.5
-rosinstall==0.7.8
-rosinstall-generator==0.1.18
-rospkg==1.1.10
-rospkg-modules==1.1.10
 rsa==4.0
 SecretStorage==2.3.1
 shiboken2==5.12.3
