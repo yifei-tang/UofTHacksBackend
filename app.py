@@ -29,23 +29,23 @@ import sys
 from io import BytesIO
 import re
 import difflib
-from flask import Flask,request, url_for
+from flask import Flask,request, url_for, jsonify
 from googleOCR import find_brand_from_image 
 from setUpDB import my_database
 from flask_restful import Resource, Api #resource allows code to be much more segregated 
 import time
 
 app = Flask(__name__)
-api=Api(app)
+@app.route('/',methods=['GET','POST'])
 
 my_DB=my_database()
 
-class HelloWorld(Resource):
-    def get(self):  
+def index():
+    if(request.method=='GET'):
         print('GET')      
-        return {'about': "hello "}
+        return jsonify({'about': "hello "})
 
-    def post(self):
+    elif(request.method=='POST'):
         print('POST')
         # my_data=request.get_data()
         
@@ -54,8 +54,8 @@ class HelloWorld(Resource):
         # time.sleep(1)
         brand=find_brand_from_image()
         
-        return {'my brand': brand}
-        # file = request.files['file']
+        return jsonify({'my brand': brand})
+            # file = request.files['file']
         # fname = secure_filename(file.filename)
         # file.save('static/' + fname)
         # # do the processing here and save the new file in static/
@@ -63,12 +63,7 @@ class HelloWorld(Resource):
         # fname_after_processing = fname
         # return {'produce': request.get_json()[], 'numBugs': 3,'result_image_location': url_for('static', filename=fname_after_processing)}, 201 #change the default code
 
-class Multi(Resource):
-    def get(self,num):
-        return{'result':num*10}
 
-api.add_resource(HelloWorld,'/')
-api.add_resource(Multi,'/multi/<int:num>')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=False)
