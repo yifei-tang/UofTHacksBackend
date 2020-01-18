@@ -21,8 +21,6 @@ import requests
 from datetime import date, datetime
 #from season import get_season
 # If you are using a Jupyter notebook, uncomment the following line.
-# %matplotlib inline
-import matplotlib.pyplot as plt
 from PIL import Image
 import os
 import sys
