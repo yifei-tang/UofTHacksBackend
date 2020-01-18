@@ -84,7 +84,7 @@ pyparsing==2.4.0
 pyserial==3.4
 PySide2==5.12.3
 python-dateutil==2.8.1
-python-gnupg==0.4.1
+python-gnupg==0.4.4
 python-snappy==0.5
 PyTrie==0.2
 pytz==2019.3
