@@ -35,10 +35,11 @@ from setUpDB import my_database
 from flask_restful import Resource, Api #resource allows code to be much more segregated 
 import time
 
+my_DB=my_database()
+
 app = Flask(__name__)
 @app.route('/',methods=['GET','POST'])
 
-#my_DB=my_database()
 
 def index():
     if(request.method=='GET'):
@@ -51,7 +52,7 @@ def index():
         
         return jsonify({'my brand': brand})
     else:
-        return jsonify({'hello':'world'})
+        return "hello world"
         # my_data=request.get_data()
         
         # newFile = open("new_image.jpg", "wb") #open data as binary
