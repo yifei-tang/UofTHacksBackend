@@ -41,13 +41,12 @@ app = Flask(__name__)
 def index():
     if(request.method=='GET'):
         print('GET')  
-        brand=find_brand_from_image()    
+          
         return jsonify({'about': "hello "})
 
     elif(request.method=='POST'):
         print('POST')
-        
-        
+        brand=find_brand_from_image()  
         return jsonify({'my brand': brand})
     else:
         return "hello world"
