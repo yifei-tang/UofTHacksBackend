@@ -47,6 +47,9 @@ def index():
 
     elif(request.method=='POST'):
         print('POST')
+        brand=find_brand_from_image()
+        
+        return jsonify({'my brand': brand})
     else:
         return jsonify({'hello':'world'})
         # my_data=request.get_data()
@@ -54,9 +57,7 @@ def index():
         # newFile = open("new_image.jpg", "wb") #open data as binary
         # newFile.write(my_data) #write data
         # time.sleep(1)
-        brand=find_brand_from_image()
         
-        return jsonify({'my brand': brand})
             # file = request.files['file']
         # fname = secure_filename(file.filename)
         # file.save('static/' + fname)
