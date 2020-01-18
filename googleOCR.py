@@ -36,7 +36,7 @@ def find_brand_from_image():
     for text in texts:
         print(text.description,text.score)
         if(str(text.description.upper()) in wordDict):
-            wordDict[str(text.description.upper())]=max(str(wordDict[text.description.upper()]),text.score)
+            wordDict[str(text.description.upper())]=max(float(wordDict[text.description.upper()]),text.score)
         else:
             wordDict[str(text.description.upper())]=text.score
 
@@ -45,7 +45,7 @@ def find_brand_from_image():
     for text in texts2:
         print(text.description,text.score)
         if(str(text.description.upper()) in wordDict):
-            wordDict[str(text.description.upper())]=max(str(wordDict[text.description.upper()]),text.score)
+            wordDict[str(text.description.upper())]=max(float(wordDict[text.description.upper()]),text.score)
         else:
             wordDict[str(text.description.upper())]=text.score
 
