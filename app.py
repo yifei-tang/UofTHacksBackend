@@ -38,7 +38,7 @@ import time
 app = Flask(__name__)
 @app.route('/',methods=['GET','POST'])
 
-my_DB=my_database()
+#my_DB=my_database()
 
 def index():
     if(request.method=='GET'):
