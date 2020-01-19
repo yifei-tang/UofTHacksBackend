@@ -9,18 +9,19 @@ class my_database:
                 password="uofthacks",
                 database="myfashiondb"
             )
-
+        print("success")
         #set up cursor and clear  old table
         self.mycursor=self.mydb.cursor()
 
         #set up table
         # self.mycursor.execute("CREATE TABLE CLOTHING (Brand VARCHAR(50), Info VARCHAR(255))")
         
+        print("show tables")
         #must print if you fetch show tables
         self.mycursor.execute("SHOW TABLES")
         for tb in self.mycursor:
             print('table number',tb)
-
+        print("insert ")
         self.insertDB('0','BLUE','ADIDAS','WINTER','MALE','www.youtube.com') 
 
         #get Name as a list from db
@@ -41,7 +42,7 @@ class my_database:
     def insertDB(self,id,colour,brand,season,gender,website):
         #print('insert')
         #insert into Food
-        sqlFormula="INSERT INTO CLOTHING (id, colour,brand,season, gender, website) VALUES (%s,%s,%s,%s,%s,%s)"
+        sqlFormula="INSERT INTO CLOTHING (id, colour,brand,season, gender, link) VALUES (%s,%s,%s,%s,%s,%s)"
         fashionItem=(id,colour,brand, season,gender, website)
         self.mycursor.execute(sqlFormula,fashionItem)
         #self.showTableDB()
@@ -61,3 +62,6 @@ class my_database:
             self.mycursor.execute("DROP TABLE testdb.CLOTHING")
         except:
             print('Table Cleared Already')
+
+if __name__=="__main__":
+    myDB=my_database()
