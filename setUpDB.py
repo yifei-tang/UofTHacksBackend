@@ -21,8 +21,7 @@ class my_database:
         self.mycursor.execute("SHOW TABLES")
         for tb in self.mycursor:
             print('table number',tb)
-        print("insert ")
-        self.insertDB('0','BLUE','ADIDAS','WINTER','MALE','www.youtube.com') 
+        #self.insertDB('0','BLUE','ADIDAS','WINTER','MALE','www.youtube.com') 
 
         #get Name as a list from db
         #compare the Name list using the method you wrote
