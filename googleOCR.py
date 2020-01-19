@@ -11,18 +11,7 @@ def find_brand_from_image():
     request = {
         'source': {'image_uri': 'https://firebasestorage.googleapis.com/v0/b/uoft-hacks-51954.appspot.com/o/adidas-Trefoil-White-%26-Black-T-Shirt-_289236-front-US.jpg?alt=media&token=cb61c33e-78d9-481c-85f5-f0e0e8a19975&fbclid=IwAR1qnWbElK5Rsu2whKmpv1dys14ELhuu5BQzDNErC3FscvfK7d8iBZ8-xjA'},
     }
-    #FOLDER_PATH=r'/home/yifei/Documents/UofTHacks2020/UofTHacks2020/'
-# Window name in which image is displayed 
-   # window_name = 'image'
     
-    # Using cv2.imshow() method  
-    # Displaying the image  
-    # cv2.imshow(window_name, image)
-    # cv2.waitKey(0)
-    #content= open((FOLDER_PATH+FILE_NAME), "rb").read()
-    #print("content",content)
-    # image=vision.types.Image(content=content)
-    # print("image",image)
     logos_on_image=client.logo_detection(request)
     text_on_image=client.text_detection(request)
     web_on_image=client.web_detection(request)

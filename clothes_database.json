@@ -1,0 +1,622 @@
+{
+	"pact": {
+		"top" : [
+			{    
+				"gender" : "men",
+				"colour" : "brown",
+				"type" : "top",
+				"price" : 90,
+                "link" : "https://static.wearpact.com/img/product/men/mqp-flx-laydown-6-1570154217.jpg",
+                "product link" : "https://wearpact.com/men/apparel/hoodies%20&%20sweatshirts/quilted%20snap%20down/wa1-mqp-flx"
+			},
+			{
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "top",
+				"price" : 13,
+                "link" : "https://static.wearpact.com/img/product/men/muc4-hgry-laydown-1-1565016019_thumb.jpg",
+                "product link" : "https://wearpact.com/men/underwear/undershirts/crew%20undershirt%204-pack/bdl-muc4-hgry"
+                
+            },
+			{
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "top",
+				"price" : 13,
+				"link" : "https://static.wearpact.com/img/product/men/muv4-blak-laydown-1-1553264604_thumb.jpg",
+                "product link" : "https://wearpact.com/men/underwear/undershirts/v-neck%20undershirt%204-pack/bdl-muv4-blak"
+            },
+            {
+                "gender" : "men",
+                "colour" : "green",
+                "type" : "top",
+                "price" : 50,
+                "link" : "https://static.wearpact.com/img/product/men/mzs-moz-laydown-6-1570154283.jpg",
+                "product link" : "https://wearpact.com/men/apparel/hoodies%20&%20sweatshirts/subtle%20stripe%20zip%20hoodie/wa1-mzs-moz"
+            }, 
+            {
+                "gender" : "men",
+                "colour" : "red",
+                "type" : "top",
+                "price" : 50,
+                "link" : "https://static.wearpact.com/img/product/men/mzs-scr-laydown-6-1570154283.jpg",
+                "product link" : "https://wearpact.com/men/apparel/hoodies%20&%20sweatshirts/subtle%20stripe%20zip%20hoodie/wa1-mzs-moz"
+            },
+            {
+                "gender" : "men",
+                "colour" : "cyan",
+                "type" : "top",
+                "price" : 50,
+                "link" : "https://static.wearpact.com/img/product/men/mzs-dnv-laydown-6-1570154283.jpg",
+                "product link" : "https://wearpact.com/men/apparel/hoodies%20&%20sweatshirts/subtle%20stripe%20zip%20hoodie/wa1-mzs-moz"
+            },
+            {
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "top",
+				"price" : 50,
+                "link" : "https://static.wearpact.com/img/product/men/mzs-blk-laydown-6-1570154282.jpg",
+                "product link" : "https://wearpact.com/men/apparel/hoodies%20&%20sweatshirts/subtle%20stripe%20zip%20hoodie/wa1-mzs-moz"
+            },
+            {
+                "gender" : "women",
+                "colour" : "black",
+                "type" : "top",
+                "price" : 45,
+                "link" : "https://static.wearpact.com/img/product/women/wep-blk-laydown-6-1562785963.jpg",
+                "product link" : "https://wearpact.com/women/apparel/maternity/essential%20poncho/wa1-wep-blk"
+            },
+            {
+				"gender" : "women",
+				"colour" : "purple",
+				"type" : "top",
+				"price" : 45,
+                "link" : "https://static.wearpact.com/img/product/women/wep-mah-laydown-6-1571857759.jpg",
+                "product link" : "https://wearpact.com/women/apparel/maternity/essential%20poncho/wa1-wep-blk"
+            },
+            {
+				"gender" : "women",
+				"colour" : "cyan",
+				"type" : "top",
+				"price" : 50,
+                "link" : "https://static.wearpact.com/img/product/women/wtl-chh-laydown-6-1550683989.jpg",
+                "product link" : "https://wearpact.com/women/apparel/tops%20&%20shirts/lightweight%20lounge%20tee/wa1-wtl-chh"
+            },
+            {
+                "gender" : "women",
+                "colour" : "green",
+                "type" : "top",
+                "price" : 45,
+                "link" : "https://static.wearpact.com/img/product/women/wtl-jad-laydown-6-1570154383.jpg",
+                "product link" : "https://wearpact.com/women/apparel/tops%20&%20shirts/lightweight%20lounge%20tee/wa1-wtl-chh"
+            },
+            {
+				"gender" : "women",
+				"colour" : "black",
+				"type" : "top",
+				"price" : 45,
+                "link" : "https://static.wearpact.com/img/product/women/wtl-blk-laydown-6-1550683989.jpg",
+                "product link" : "https://wearpact.com/women/apparel/tops%20&%20shirts/lightweight%20lounge%20tee/wa1-wtl-chh"
+            }
+		],
+
+		"bottom" : [
+			{
+				"gender" : "men",
+				"colour" : "white",
+				"type" : "bottom",
+				"price" : 35,
+				"link" : "https://static.wearpact.com/img/product/men/mls-hgr-laydown-6-1571856590.jpg",
+                "product link" : "https://wearpact.com/men/apparel/pants%20%26%20shorts/drawstring%20lounge%20shorts/wa1-mls-rdw?bvstate=pg:2/ct:r"
+            },
+            {
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "bottom",
+				"price" : 35,
+				"link" : "https://static.wearpact.com/img/product/men/mls-nlb-laydown-5-1546878828.jpg",
+                "product link" : "https://wearpact.com/men/apparel/pants%20%26%20shorts/drawstring%20lounge%20shorts/wa1-mls-rdw?bvstate=pg:2/ct:r"
+            },
+            {
+				"gender" : "women",
+				"colour" : "black",
+				"type" : "bottom",
+				"price" : 25,
+				"link" : "https://static.wearpact.com/img/product/women/wln-blk-laydown-6-1570154368.jpg",
+                "product link" : "https://wearpact.com/women/apparel/leggings%20&%20tights/go-to%20legging/wa1-wln-blk"
+            },
+            {
+				"gender" : "women",
+				"colour" : "red",
+				"type" : "bottom",
+				"price" : 25,
+				"link" : "https://static.wearpact.com/img/product/men/mls-hgr-laydown-6-1571856590.jpg",
+                "product link" : "https://static.wearpact.com/img/product/women/wln-scr-laydown-6-1570154370.jpg"
+            },
+            {
+				"gender" : "women",
+				"colour" : "green",
+				"type" : "bottom",
+				"price" : 25,
+				"link" : "https://static.wearpact.com/img/product/women/wln-chh-laydown-6-1570154369.jpg",
+                "product link" : "https://wearpact.com/women/apparel/leggings%20&%20tights/go-to%20legging/wa1-wln-blk"
+            }
+		],
+
+		"outerwear" : [
+			{    
+				"gender" : "men",
+				"colour" : "red",
+				"type" : "outerwear",
+				"price" : 75,
+				"link" : "https://static.wearpact.com/img/product/men/mgs-cnh-laydown-6-1570154189.jpg",
+                "product link" : "https://wearpact.com/men/apparel/sweaters/game%20sweater/wa1-mgs-lhg"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "outerwear",
+				"price" : 75,
+				"link" : "https://static.wearpact.com/img/product/men/mgs-lhg-laydown-6-1570154198.jpg",
+                "product link" : "https://wearpact.com/men/apparel/sweaters/game%20sweater/wa1-mgs-lhg"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "brown",
+				"type" : "outerwear",
+				"price" : 75,
+				"link" : "https://static.wearpact.com/img/product/men/mgs-mat-laydown-6-1570154198.jpg",
+                "product link" : "https://wearpact.com/men/apparel/sweaters/game%20sweater/wa1-mgs-lhg"
+            },
+            {    
+				"gender" : "women",
+				"colour" : "cyan",
+				"type" : "outerwear",
+				"price" : 95,
+				"link" : "https://static.wearpact.com/img/product/women/wqb-dnv-laydown-6-1570198352.jpg",
+                "product link" : "https://wearpact.com/women/apparel/sweaters/quilted%20bomber%20jacket/wa1-wqb-stm"
+            },
+            {    
+				"gender" : "women",
+				"colour" : "yellow",
+				"type" : "outerwear",
+				"price" : 95,
+				"link" : "https://static.wearpact.com/img/product/women/wqb-flx-laydown-6-1570154372.jpg",
+                "product link" : "https://wearpact.com/women/apparel/sweaters/quilted%20bomber%20jacket/wa1-wqb-stm"
+            },
+            {    
+				"gender" : "women",
+				"colour" : "green",
+				"type" : "outerwear",
+				"price" : 95,
+				"link" : "https://static.wearpact.com/img/product/women/wqb-sag-laydown-6-1570198354.jpg",
+                "product link" : "https://wearpact.com/women/apparel/sweaters/quilted%20bomber%20jacket/wa1-wqb-stm"
+            },
+            {    
+				"gender" : "women",
+				"colour" : "yellow",
+				"type" : "outerwear",
+				"price" : 90,
+				"link" : "https://static.wearpact.com/img/product/women/wsc-whh-laydown-6-1570154379.jpg",
+                "product link" : "https://wearpact.com/women/apparel/maternity/sweater%20cardigan/wa1-wsc-whh"
+            },
+            {    
+				"gender" : "women",
+				"colour" : "black",
+				"type" : "outerwear",
+				"price" : 90,
+				"link" : "https://static.wearpact.com/img/product/women/wsc-lhg-laydown-6-1570154378.jpg",
+                "product link" : "https://wearpact.com/women/apparel/maternity/sweater%20cardigan/wa1-wsc-whh"
+            },
+            {    
+				"gender" : "women",
+				"colour" : "orange",
+				"type" : "outerwear",
+				"price" : 90,
+				"link" : "https://static.wearpact.com/img/product/women/wsc-cnh-laydown-6-1570154378.jpg",
+                "product link" : "https://wearpact.com/women/apparel/maternity/sweater%20cardigan/wa1-wsc-whh"
+            }
+		],
+		
+		"shoes" : [
+            {
+                
+            }
+		]
+    },
+    "everlane": {
+		"top" : [
+			{    
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "top",
+				"price" : 77,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/27459568_8606.jpg",
+                "product link" : "https://www.everlane.com/products/mens-unf-japanese-oxford-standard-shirt-black?collection=mens-all"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "green",
+				"type" : "top",
+				"price" : 77,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/3119c1f0_d318.jpg",
+                "product link" : "https://www.everlane.com/products/mens-unf-japanese-oxford-standard-shirt-black?collection=mens-all"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "white",
+				"type" : "top",
+				"price" : 77,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/1e4798b0_24f3.jpg",
+                "product link" : "https://www.everlane.com/products/mens-unf-japanese-oxford-standard-shirt-black?collection=mens-all"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "cyan",
+				"type" : "top",
+				"price" : 77,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/7aae162d_6b53.jpg",
+                "product link" : "https://www.everlane.com/products/mens-unf-japanese-oxford-standard-shirt-black?collection=mens-all"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "orange",
+				"type" : "top",
+				"price" : 172,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/fa1f35d3_4915.jpg",
+                "product link" : "https://www.everlane.com/products/mens-cashmere-crew3-charcoal?collection=mens-all"
+			},
+            {    
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "top",
+				"price" : 172,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/40f20a00_4148.jpg",
+                "product link" : "https://www.everlane.com/products/mens-cashmere-crew3-charcoal?collection=mens-all"
+			},
+            {    
+				"gender" : "men",
+				"colour" : "white",
+				"type" : "top",
+				"price" : 172,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/9a761d71_be28.jpg",
+                "product link" : "https://www.everlane.com/products/mens-cashmere-crew3-charcoal?collection=mens-all"
+			},
+            {    
+				"gender" : "men",
+				"colour" : "purple",
+				"type" : "top",
+				"price" : 172,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/a632b928_a251.jpg",
+                "product link" : "https://www.everlane.com/products/mens-cashmere-crew3-charcoal?collection=mens-all"
+			},
+            {    
+				"gender" : "men",
+				"colour" : "green",
+				"type" : "top",
+				"price" : 172,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/c273dd21_302b.jpg",
+                "product link" : "https://www.everlane.com/products/mens-cashmere-crew3-charcoal?collection=mens-all"
+			},
+            {    
+				"gender" : "men",
+				"colour" : "cyan",
+				"type" : "top",
+				"price" : 172,
+                "link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/d8f39e8c_da6b.jpg",
+                "product link" : "https://www.everlane.com/products/mens-cashmere-crew3-charcoal?collection=mens-all"
+			}
+		],
+
+		"bottom" : [
+			{
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "bottom",
+				"price" : 90,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/7c0a6f51_7cf7.jpg",
+                "product link" : "https://www.everlane.com/products/mens-performance-chino-black?collection=mens-bottoms"
+            },
+            {
+				"gender" : "men",
+				"colour" : "white",
+				"type" : "bottom",
+				"price" : 90,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/6acb3dc5_5d59.jpg",
+                "product link" : "https://www.everlane.com/products/mens-performance-chino-black?collection=mens-bottoms"
+            },
+            {
+				"gender" : "men",
+				"colour" : "cyan",
+				"type" : "bottom",
+				"price" : 90,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/52bedd2b_55e8.jpg",
+                "product link" : "https://www.everlane.com/products/mens-performance-chino-black?collection=mens-bottoms"
+            },
+            {
+				"gender" : "men",
+				"colour" : "brown",
+				"type" : "bottom",
+				"price" : 90,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/458faffb_b361.jpg",
+                "product link" : "https://www.everlane.com/products/mens-performance-chino-black?collection=mens-bottoms"
+            },
+            {
+				"gender" : "men",
+				"colour" : "green",
+				"type" : "bottom",
+				"price" : 90,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/c4bcfd2e_017b.jpg",
+                "product link" : "https://www.everlane.com/products/mens-performance-chino-black?collection=mens-bottoms"
+            }
+		],
+
+		"outerwear" : [
+			{    
+				"gender" : "men",
+				"colour" : "cyan",
+				"type" : "outerwear",
+				"price" : 116,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/a825ef47_60c9.jpg",
+                "product link" : "https://www.everlane.com/products/mens-denim-jacket-classic-cyanwash?collection=mens-all"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "black",
+				"type" : "outerwear",
+				"price" : 116,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/f7b825ae_f36a.jpg",
+                "product link" : "https://www.everlane.com/products/mens-denim-jacket-classic-cyanwash?collection=mens-all"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "green",
+				"type" : "outerwear",
+				"price" : 116,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/6a5c3cce_73c2.jpg",
+                "product link" : "https://www.everlane.com/products/mens-chore-jacket-ochre?collection=mens-outerwear"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "yellow",
+				"type" : "outerwear",
+				"price" : 116,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/62b85a45_1aa8.jpg",
+                "product link" : "https://www.everlane.com/products/mens-chore-jacket-ochre?collection=mens-outerwear"
+            },
+            {    
+				"gender" : "men",
+				"colour" : "cyan",
+				"type" : "outerwear",
+				"price" : 116,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/5b2d7ace_6f35.jpg",
+                "product link" : "https://www.everlane.com/products/mens-chore-jacket-ochre?collection=mens-outerwear"
+            }
+		],
+		
+		"shoes" : [
+            {
+				"gender" : "men",
+				"colour" : "neutral",
+				"type" : "shoes",
+				"price" : 129,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/b_rgb:fdf9f5,c_fill,dpr_1.0,f_auto,g_center,h_680,q_auto,w_980/v1/i/2ca6b836_2608.png",
+                "product link" : "https://www.everlane.com/products/mens-tread-trainer-off-white-gumsole?collection=mens-tread-sneakers"
+            },
+            {
+				"gender" : "men",
+				"colour" : "neutral",
+				"type" : "bottom",
+				"price" : 129,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/b_rgb:fdf9f5,c_fill,dpr_1.0,f_auto,g_center,h_680,q_auto,w_980/v1/i/3fe6486f_3c66.png",
+                "product link" : "https://www.everlane.com/products/mens-tread-trainer-off-white-gumsole?collection=mens-tread-sneakers"
+            },
+            {
+				"gender" : "men",
+				"colour" : "neutral",
+				"type" : "shoes",
+				"price" : 129,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/b_rgb:fdf9f5,c_fill,dpr_1.0,f_auto,g_center,h_680,q_auto,w_980/v1/i/6c1baee0_5691.png",
+                "product link" : "https://www.everlane.com/products/mens-tread-trainer-off-white-gumsole?collection=mens-tread-sneakers"
+            },
+            {
+				"gender" : "men",
+				"colour" : "neutral",
+				"type" : "bottom",
+				"price" : 129,
+				"link" : "https://res.cloudinary.com/everlane/image/upload/c_scale/b_rgb:fdf9f5,c_fill,dpr_1.0,f_auto,g_center,h_680,q_auto,w_980/v1/i/00ac3680_401d.png",
+                "product link" : "https://www.everlane.com/products/mens-tread-trainer-off-white-gumsole?collection=mens-tread-sneakers"
+            }
+		]
+    }, 
+    "uniqlo" : {
+         "top" : [
+              {
+                   "gender" : "neutral",
+                   "type"  :  "top",
+                   "colour" : "white",
+                   "price" : "25",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/419501/sub/goods_419501_sub7.jpg?width=2000",    
+                   "product link" : "https://www.uniqlo.com/us/en/men-long-sleeve-hooded-sweatshirt-419501.html"
+              },
+              {
+                   "gender" : "neutral",
+                   "type"  :  "top",
+                   "colour" : "red",
+                   "price" : "20",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/423149/sub/goods_423149_sub7.jpg?width=1600&impolicy=quality_75",     
+                   "product link" : "https://www.uniqlo.com/jwanderson19fw/eu/en/"
+                },
+              {
+                   "gender" : "female",
+                   "type"  :  "top",
+                   "colour" : "white",
+                   "price" : "30",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422914/sub/goods_422914_sub7.jpg?width=1600&impolicy=quality_75",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E422914-000?colorCode=COL01"  
+              },
+              {
+                   "gender" : "female",
+                   "type"  :  "top",
+                   "colour" : "yellow",
+                   "price" : "20",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/427994/item/goods_50_427994.jpg?width=1600&impolicy=quality_75",
+                   "product link" : "https://www.uniqlo.com/jp/store/feature_mb/uq/fe_list/ut/urban-walls/women"
+              }
+         ], 
+         "bottom" : [
+              {
+                   "gender" : "male",
+                   "type"  :  "bottom",
+                   "colour" : "brown",
+                   "price" : "13",
+                   "product link" : "https://www.uniqlo.com/ca/fr/products/E420665-000?colorCode=COL00",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/420665/sub/cagoods_420665_sub7.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "neutral",
+                   "type"  :  "bottom",
+                   "colour" : "black",
+                   "price" : "50",
+                   "product link" : "https://www.uniqlo.com/us/en/men-slim-fit-jeans-425302.html",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/425298/item/goods_08_425298.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "bottom",
+                   "colour" : "black",
+                   "price" : "40",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E418916-000?colorCode=COL09",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/418916/sub/goods_418916_sub7.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "bottom",
+                   "colour" : "cyan",
+                   "price" : "30",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E420805-000?colorCode=COL63",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/420805/item/goods_63_420805.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "female",
+                   "type"  :  "bottom",
+                   "colour" : "cyan",
+                   "price" : "20",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E421734-000?colorCode=COL67",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/421734/sub/cagoods_421734_sub7.jpg?width=1600&impolicy=quality_75"     
+              }
+         ],
+         "outerwear" : [
+              {
+                   "gender" : "neutral",
+                   "type"  :  "outerwear",
+                   "colour" : "cyan",
+                   "price" : "180",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E420253-000?colorCode=COL02",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/420253/sub/goods_420253_sub7.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "outerwear",
+                   "colour" : "brown",
+                   "price" : "80",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E421716-000?colorCode=COL35",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/421716/sub/goods_421716_sub7.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "female",
+                   "type"  :  "outerwear",
+                   "colour" : "brown",
+                   "price" : "60",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E422496-000?colorCode=COL32",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422496/sub/goods_422496_sub7.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "female",
+                   "type"  :  "outerwear",
+                   "colour" : "black",
+                   "price" : "60",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E421055-000?colorCode=COL09",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/421055/sub/goods_421055_sub7.jpg?width=1600&impolicy=quality_75"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "outerwear",
+                   "colour" : "red",
+                   "price" : "60",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E425078-000?colorCode=COL69",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/425078/sub/goods_425078_sub7.jpg?width=1600&impolicy=quality_75"     
+              }
+         ],
+         "shoes" : [
+              {
+                   "gender" : "female",
+                   "type"  :  "shoes",
+                   "colour" : "orange",
+                   "price" : "40",
+                   "product link" : "https://www.uniqlo.com/ca/en/products/E422356-000?colorCode=COL25",
+                   "link" : "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422356/item/goods_25_422356.jpg?width=1600&impolicy=quality_75"     
+              }
+         ]    
+    },
+    "boden" : {
+         "top" : [
+              {
+                   "gender" : "male",
+                   "type"  :  "top",
+                   "colour" : "white",
+                   "price" : "60",
+                   "product link" : "https://www.bodenusa.com/en-us/long-sleeve-henley-snowdrop/sty-m0463-wht?cat=C1_S1_G550",
+                   "link" : "https://www.bodenimages.com/productimages/productlarge/20mspr_m0463_wht_d07.jpg"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "top",
+                   "colour" : "black",
+                   "price" : "80",
+                   "product link" : "https://www.bodenusa.com/en-us/finsbury-knitted-polo-charcoal-marl/sty-m0466-cha?cat=C1_S1_G550",
+                   "link" : "https://www.bodenimages.com/productimages/productlarge/20mspr_m0466_cha_d07.jpg"     
+              },
+              {
+                   "gender" : "female",
+                   "type"  :  "top",
+                   "colour" : "cyan",
+                   "price" : "70",
+                   "product link" : "https://www.bodenusa.com/en-us/bay-jersey-shirt-ivory-bold-cyan-daisy-bud/sty-j0568-blm?cat=C1_S2_G18&pid=J0568-J0568-G_00000002642",
+                   "link" : "https://www.bodenimages.com/productimages/productlarge/19wxms_j0568_blm_d06.jpg"     
+              },
+              {
+                   "gender" : "female",
+                   "type"  :  "top",
+                   "colour" : "cyan",
+                   "price" : "18",
+                   "product link" : "https://www.bodenusa.com/en-us/supersoft-slash-neck-tee-navy/sty-j0367-nav?cat=C2_S2_G18",
+                   "link" : "https://www.bodenimages.com/productimages/productlarge/19waut_j0367_nav_d06.jpg"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "top",
+                   "colour" : "pink",
+                   "price" : "210",
+                   "product link" : "https://www.bodenusa.com/en-us/cashmere-half-zip-rose-blossom/sty-m0217-ros?cat=C1_S1_G16",
+                   "link" : "https://www.bodenimages.com/productimages/productlarge/20mspr_m0217_ros_d08.jpg"     
+              },
+              {
+                   "gender" : "male",
+                   "type"  :  "top",
+                   "colour" : "green",
+                   "price" : "80",
+                   "product link" : "https://www.bodenusa.com/en-us/finsbury-knitted-polo-washed-khaki/sty-m0466-mgr?cat=C1_S1_G16",
+                   "link" : "https://www.bodenimages.com/productimages/productlarge/20mspr_m0466_mgr_d08.jpg"     
+              }
+         ], 
+         "bottom" : [
+         ],
+         "outerwear" : [
+         ],
+         "shoes" : [
+         ]    
+    }
+}
+		
+
