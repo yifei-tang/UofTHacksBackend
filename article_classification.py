@@ -13,7 +13,7 @@ class clothes:
         Bottoms = {'Pants','Leg','Trousers','Skirt','Short'}
         Shoes = {'Footwear','Shoe','Shoes','Boots','Heels'}
         category=""
-        
+
         for label in labels:
             # print(label.description)
             # category = ''
@@ -48,7 +48,7 @@ class clothes:
         return self.colour_group_mapping(closest_name)
     
     def colour_group_mapping(self,closest_name):
-        color_grp = ''
+        color_grp = 'black'
         (grps.brown._colors) = map(lambda x:x.lower(), grps.brown._colors)
         (grps.black._colors) = map(lambda x:x.lower(), grps.black._colors)
         (grps.blue._colors) = map(lambda x:x.lower(), grps.blue._colors)
@@ -86,6 +86,7 @@ class clothes:
         return color_grp
 
     def complementary(self,group):
+        print(group)
         complements = {
             'black': ['black','blue','brown','cyan','green','orange','pink','purple','red','white','yellow'],
             'blue': ['black','white','purple','orange'],
@@ -124,9 +125,9 @@ def article_class(url):
     props = response_clr.image_properties_annotation    #Properties (Colours)
 
     article = clothes()
-    group = article.colour_seen(props)
+    # group = article.colour_seen(props)
 
-    return article.categorization(labels), article.complementary(group)    #type, recommend colours [str]
+    return article.categorization(labels), article.complementary(article.colour_seen(props))    #type, recommend colours [str]
 
 # Testing 
 # url = "https://images.footlocker.com/is/image/EBFL2/55045000_a1?wid=640&hei=640&fmt=png-alpha" 
