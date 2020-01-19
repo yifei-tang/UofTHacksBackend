@@ -10,7 +10,7 @@ class clothes:
         # print('Labels:')
         Tops = {'T-shirt','shirt','sleeve'}
         Outerwear = {'Outerwear', 'Jacket', 'Sweater'}
-        Bottoms = {'Pants','Leg','Trousers','Skirt','Short'}
+        Bottoms = {'Pants','Leg','Trousers','Skirt','Short','Jeans','Trousers'}
         Shoes = {'Footwear','Shoe','Shoes','Boots','Heels'}
         category="Top"
 

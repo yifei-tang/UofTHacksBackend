@@ -68,7 +68,10 @@ class my_database:
         for i in range(len(typeList)):
             while True:
                 selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
-                self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s and (gender=%s or gender=%s)"),(typeList[i],selectColour,gender,"neutral")) #input type is not equal to the new type
+                if(not gender):
+                    self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s"),(typeList[i],selectColour)) #input type is not equal to the new type
+                else:
+                    self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s and (gender=%s or gender=%s)"),(typeList[i],selectColour,gender,"neutral")) #input type is not equal to the new type
                 result=self.mycursor.fetchall()
                 
                 
@@ -92,11 +95,15 @@ class my_database:
         for i in range(len(originalTypeList)):
             k=0
             while True:
-                if(k==3):
+                if(k==4):
                     break
 
                 selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
-                self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s and (gender=%s or gender=%s)"),(originalTypeList[i],selectColour,gender,"neutral")) #input type is not equal to the new type
+                if(not gender):
+                    self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s"),(originalTypeList[i],selectColour)) #input type is not equal to the new type
+                else:
+                    self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s and (gender=%s or gender=%s)"),(originalTypeList[i],selectColour,gender,"neutral")) #input type is not equal to the new type
+
                 result=self.mycursor.fetchall()
                 
                 
