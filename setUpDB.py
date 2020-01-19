@@ -38,11 +38,11 @@ class my_database:
         #print(result)
         return result
 
-    def insertDB(self,brand,info):
+    def insertDB(self,id,colour,brand,season,gender,website):
         #print('insert')
         #insert into Food
-        sqlFormula="INSERT INTO CLOTHING (Brand, Info) VALUES (%s,%s)"
-        fashionItem=(brand,info)
+        sqlFormula="INSERT INTO CLOTHING (id, colour,brand,season, gender, website) VALUES (%s,%s,%s,%s,%s,%s)"
+        fashionItem=(id,colour,brand, season,gender, website)
         self.mycursor.execute(sqlFormula,fashionItem)
         #self.showTableDB()
 
