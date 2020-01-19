@@ -53,7 +53,7 @@ class my_database:
         self.mycursor.execute('SELECT * FROM CLOTHING')
         print('show',self.mycursor.fetchall())
 
-    def getRowsFromDB(self,inputType,listOfColours):
+    def getRowsFromDB(self,inputType,listOfColours,gender):
         i=0
         newRes=[]
         typeList=["top","outerwear","shoes","bottom"]
@@ -68,12 +68,11 @@ class my_database:
         for i in range(len(typeList)):
             while True:
                 selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
-                self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s"),(typeList[i],selectColour)) #input type is not equal to the new type
+                self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s and (gender=%s or gender=%s)"),(typeList[i],selectColour,gender,"neutral")) #input type is not equal to the new type
                 result=self.mycursor.fetchall()
                 
                 
                 if result:
-                    print("result",result)
                     newRes.extend(result)
                     break
 
@@ -83,8 +82,41 @@ class my_database:
                 count.update({newRes[i][2]:1})
                 ans.append(newRes[i])
 
+        #iterate through answer and add to set
+        banned_ids=set()
+        for entry in ans:
+            banned_ids.add(entry[0]) #insert id
+        alternatives=[]
+        altAns=[]
+        originalTypeList=["top","outerwear","shoes","bottom"]
+        for i in range(len(originalTypeList)):
+            k=0
+            while True:
+                if(k==3):
+                    break
+
+                selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
+                self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s and (gender=%s or gender=%s)"),(originalTypeList[i],selectColour,gender,"neutral")) #input type is not equal to the new type
+                result=self.mycursor.fetchall()
                 
-        return ans
+                
+                if result:
+                    alternatives.extend(result)
+                    k+=1
+
+        newCount={}
+        for i in range(len(alternatives)):
+            if(alternatives[i][0] in banned_ids):
+                continue
+            if(alternatives[i][2] not in newCount ):
+                newCount.update({alternatives[i][2]:1})
+                altAns.append(alternatives[i])
+            elif(newCount[alternatives[i][2]]<3):
+                newCount[alternatives[i][2]]+=1
+                altAns.append(alternatives[i])
+
+        #alternatives match the colour, gender, but type is no
+        return ans, altAns
 
         
     def clearDB(self):

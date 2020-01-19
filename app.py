@@ -49,15 +49,16 @@ def index():
         print('GET')  
         #get a string, apply trudie's function, return jso
 
-        return jsonify({'about': "hello world"})
+        return jsonify({'about': "hello worldh"})
 
     elif(request.method=='POST'):
         my_data=request.get_json(force=True)
         site=my_data["website"]
+        gender=my_data["gender"]
         my_type, recommended_colours = article_class(site)
         
-        rows= my_DB.getRowsFromDB(my_type,recommended_colours)
-        return jsonify({'about': rows})
+        rows,alternatives= my_DB.getRowsFromDB(my_type,recommended_colours,gender)
+        return jsonify({'suggestion': rows,'alternatives':alternatives})
     else:
         return "hello world"
         # my_data=request.get_data()
