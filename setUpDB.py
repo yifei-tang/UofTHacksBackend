@@ -54,11 +54,37 @@ class my_database:
         print('show',self.mycursor.fetchall())
 
     def getRowsFromDB(self,inputType,listOfColours):
-        selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
-        self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Not Type=%s and Colour=%s"),(inputType,selectColour)) #input type is not equal to the new type
-        result=self.mycursor.fetchall()
-        print(result)
-        return result
+        i=0
+        newRes=[]
+        typeList=["top","outerwear","shoes","bottom"]
+        selectColour="black"
+
+        typeList.remove(inputType.lower())
+        print("input type",inputType,"type list",typeList)
+
+        count={}
+        ans=[]
+
+        for i in range(len(typeList)):
+            while True:
+                selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
+                self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Type=%s and Colour=%s"),(typeList[i],selectColour)) #input type is not equal to the new type
+                result=self.mycursor.fetchall()
+                
+                
+                if result:
+                    print("result",result)
+                    newRes.extend(result)
+                    break
+
+
+        for i in range(len(newRes)):
+            if(newRes[i][2] not in count):
+                count.update({newRes[i][2]:1})
+                ans.append(newRes[i])
+
+                
+        return ans
 
         
     def clearDB(self):

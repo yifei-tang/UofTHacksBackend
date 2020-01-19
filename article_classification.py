@@ -12,17 +12,17 @@ class clothes:
         Outerwear = {'Outerwear', 'Jacket', 'Sweater'}
         Bottoms = {'Pants','Leg','Trousers','Skirt','Short'}
         Shoes = {'Footwear','Shoe','Shoes','Boots','Heels'}
-        category=""
+        category="Top"
 
         for label in labels:
             # print(label.description)
             # category = ''
             if label.description in Tops:
-                category = 'Tops'
+                category = 'Top'
             elif label.description in Outerwear:
                 category = 'Outerwear'
             elif label.description in Bottoms:
-                category = 'Bottoms'
+                category = 'Bottom'
             elif label.description in Shoes:
                 category = 'Shoes'
         # print('CAT',category)
