@@ -29,6 +29,7 @@ import re
 import difflib
 from flask import Flask,request, url_for, jsonify
 from googleOCR import find_brand_from_image 
+from article_classification import *
 from setUpDB import my_database
 from flask_restful import Resource, Api #resource allows code to be much more segregated 
 from flask_cors import CORS, cross_origin

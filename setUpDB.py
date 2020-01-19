@@ -39,10 +39,10 @@ class my_database:
         #print(result)
         return result
 
-    def insertDB(self,id,colour,brand,gender, my_type, price, website, purchasesite):
+    def insertDB(self,id,brand,colour,gender, my_type, price, website, purchasesite):
         #print('insert')
         #insert into Food
-        sqlFormula="INSERT INTO CLOTHING (id,colour,brand,gender, type, price, website, purchasesite) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
+        sqlFormula="INSERT INTO CLOTHING (id,colour,brand,gender, type, price, link, purchase) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
         fashionItem=(id,colour,brand,gender, my_type, price, website,purchasesite)
         self.mycursor.execute(sqlFormula,fashionItem)
         #self.showTableDB()
@@ -66,46 +66,64 @@ class my_database:
 if __name__=="__main__":
     with open('clothes_database.json') as json_file:
         data = json.load(json_file)
-    for entry in data["pact"]["top"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # myDB=my_database()
 
-    for entry in data["pact"]["bottom"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
-    for entry in data["pact"]["outerwear"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # i=0
+    # for entry in data["pact"]["top"]:
+    #     myDB.insertDB(i,"pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["pact"]["shoes"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["pact"]["bottom"]:
+    #     myDB.insertDB(i,"pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
+    # for entry in data["pact"]["outerwear"]:
+    #     myDB.insertDB(i,"pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["everlane"]["top"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # # for entry in data["pact"]["shoes"]:
+    # #     myDB.insertDB("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
 
-    for entry in data["everlane"]["bottom"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
-    for entry in data["everlane"]["outerwear"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["everlane"]["top"]:
+    #     myDB.insertDB(i,"everlane",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["everlane"]["shoes"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["everlane"]["bottom"]:
+    #     myDB.insertDB(i,"everlane",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["uniqlo"]["top"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["everlane"]["outerwear"]:
+    #     myDB.insertDB(i,"everlane",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["uniqlo"]["bottom"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
-    for entry in data["uniqlo"]["outerwear"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["everlane"]["shoes"]:
+    #     myDB.insertDB(i,"everlane",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["uniqlo"]["shoes"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["uniqlo"]["top"]:
+    #     myDB.insertDB(i,"uniqlo",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["boden"]["top"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["uniqlo"]["bottom"]:
+    #     myDB.insertDB(i,"uniqlo",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
 
-    for entry in data["boden"]["bottom"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
-    for entry in data["boden"]["outerwear"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["uniqlo"]["outerwear"]:
+    #     myDB.insertDB(i,"uniqlo",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
+    # for entry in data["uniqlo"]["shoes"]:
+    #     myDB.insertDB(i,"uniqlo",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
+    # for entry in data["boden"]["top"]:
+    #     myDB.insertDB(i,"boden",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    #     i+=1
+    
+    # myDB.showTableDB()
+    # myDB.mydb.commit()
 
-    for entry in data["boden"]["shoes"]:
-        print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["boden"]["bottom"]:
+    #     print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+    # for entry in data["boden"]["outerwear"]:
+    #     print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
+
+    # for entry in data["boden"]["shoes"]:
+    #     print("pact",entry["colour"],entry["gender"],entry["type"],entry["price"],entry["link"],entry["product link"])
