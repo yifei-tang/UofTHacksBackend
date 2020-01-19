@@ -12,7 +12,8 @@ class clothes:
         Outerwear = {'Outerwear', 'Jacket', 'Sweater'}
         Bottoms = {'Pants','Leg','Trousers','Skirt','Short'}
         Shoes = {'Footwear','Shoe','Shoes','Boots','Heels'}
-
+        category=""
+        
         for label in labels:
             # print(label.description)
             # category = ''
@@ -30,7 +31,7 @@ class clothes:
     def colour_seen(self,properties):
         colors = [(int(color.color.red),int(color.color.green),int(color.color.blue),color.pixel_fraction) for color in properties.dominant_colors.colors] 
         colors.sort(key=lambda x:x[3], reverse = True)
-
+        closest_name=""
         for color in colors[0:2]:
             try:
                 closest_name = actual_name = (webcolors.rgb_to_name(color[0:3]))

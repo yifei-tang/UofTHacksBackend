@@ -47,13 +47,17 @@ app.config['CORS_HEADERS']='Content-Type'
 def index():
     if(request.method=='GET'):
         print('GET')  
-          
-        return jsonify({'about': "hello "})
+        #get a string, apply trudie's function, return jso
+
+        return jsonify({'about': "hello world"})
 
     elif(request.method=='POST'):
-        print('POST')
-        brand=find_brand_from_image()  
-        return jsonify({'my brand': brand})
+        my_data=request.get_json(force=True)
+        site=my_data["website"]
+        my_type, recommended_colours = article_class(site)
+        
+        rows= my_DB.getRowsFromDB(my_type,recommended_colours)
+        return jsonify({'about': rows})
     else:
         return "hello world"
         # my_data=request.get_data()

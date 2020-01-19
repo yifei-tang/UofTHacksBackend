@@ -1,6 +1,8 @@
 import mysql.connector
 import collections
 import json
+from article_classification import *
+import random
 
 class my_database:
     def __init__(self):
@@ -51,9 +53,11 @@ class my_database:
         self.mycursor.execute('SELECT * FROM CLOTHING')
         print('show',self.mycursor.fetchall())
 
-    def getInfoFromBrand(self,brand):
-        self.mycursor.execute(("SELECT Info FROM CLOTHING WHERE Brand=%s"),(brand,))
+    def getRowsFromDB(self,inputType,listOfColours):
+        selectColour=listOfColours[random.randint(0,len(listOfColours))-1]
+        self.mycursor.execute(("SELECT * FROM CLOTHING WHERE Not Type=%s and Colour=%s"),(inputType,selectColour)) #input type is not equal to the new type
         result=self.mycursor.fetchall()
+        print(result)
         return result
 
         
@@ -64,8 +68,13 @@ class my_database:
             print('Table Cleared Already')
 
 if __name__=="__main__":
-    with open('clothes_database.json') as json_file:
-        data = json.load(json_file)
+    my_type, recommended_colours = article_class("https://img.favpng.com/15/4/18/t-shirt-adidas-originals-adidas-new-zealand-adidas-australia-png-favpng-u2qyRDREJzX952GtZ3xe9G8BX.jpg")
+    print(my_type, recommended_colours) #select first three
+    myDB=my_database()
+    rows= myDB.getRowsFromDB(my_type,recommended_colours)
+    print(type(rows))
+    # with open('clothes_database.json') as json_file:
+    #     data = json.load(json_file)
     # myDB=my_database()
 
     # i=0
