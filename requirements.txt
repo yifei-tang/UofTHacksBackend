@@ -43,6 +43,6 @@ shiboken2==5.12.3
 six==1.14.0
 subprocess32==3.5.3
 tqdm==4.31.1
-urllib3==1.25.7
+urllib3==1.26.5
 webcolors==1.10
 Werkzeug==0.16.0
